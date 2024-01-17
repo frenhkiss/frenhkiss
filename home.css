@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tirhuta&family=Roboto:ital,wght@0,300;0,400;0,500;1,100&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bg-color:#efd665;
+  --text-color:;
+  --primary-color:;
+  --secondary-color:;
+  --ternary-color:;
+  --btn1:#0000;
+  --btn2:;
+  --btn3:;
+  --btn4:;
+  --text1:;
+  --tetx2:;
+  --text3:;
+  --text4:;
+}
+
+body{
+  font-family: 'Noto Sans Tirhuta', sans-serif;
+} 
+
+h1,h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex_space{
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.primary-btn{
+  padding: 15px 40px;
+  font-weight: bold;
+  color: var(--btn1);
+}
+
+.secondary-btn{
+  padding: 15px 40px;
+  background: none;
+  border: 2px solid var(--btn1);
+  font-weight: bold;
+}
+.container{
+  max-width: 85%;
+  margin: auto;
+}
+
+header{
+  height: 18vh;
+  line-height: 10vh;
+  padding: 20px 0;
+}
+
+header img{
+  margin: 20px 0;
+}
+
+header ul{
+  display: inline-block ;
+}
